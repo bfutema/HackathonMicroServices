@@ -1,6 +1,9 @@
 const express = require("express");
+const routeMessage = require("routes/message.js");
 
-var app = express();
+const app = express();
+
+app.use(routeMessage);
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
