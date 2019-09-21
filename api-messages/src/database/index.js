@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 mongoose.connect("mongodb://localhost/messagesDatabase", {
-  useMongoClient: true
+  useMongoClient: true,
+  promiseLibrary: global.Promise
 });
 mongoose.Promise = global.Promise;
 
