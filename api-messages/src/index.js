@@ -1,5 +1,5 @@
 const express = require("express");
-const routeMessage = require("routes/message.js");
+const routeMessage = require("./routes/message.js");
 
 const app = express();
 
