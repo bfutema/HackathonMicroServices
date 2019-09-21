@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/usersAuth", { useMongoClient: true });
+mongoose.connect("mongodb://localhost/usersAuth", { promiseLibrary: global.Promise });
 mongoose.Promise = global.Promise;
 
 var app = express();
