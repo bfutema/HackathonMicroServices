@@ -43,7 +43,7 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 <p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Login.jpg" alt="Tela de Login" /></p>
 
-<h4>Tela de Login</h4>
-<p>O usuário irá se logar ou criar sua conta no sistema.</p>
+<h4>Tela de Principal</h4>
+<p>Uma vez logado no sistema, o usuário será redirecionado para a tela principal onde irá mostrar as conversas com os Jurados, Mentores, Coordenadores e de sua própria equipe.</p>
 
 <p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Admin.jpg" alt="Tela Principal do Sistema" /></p>
