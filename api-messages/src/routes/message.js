@@ -1,7 +1,5 @@
 const express = require("express");
 const Message = require("../models/message");
-const db = require('../database/index');
-const Mongoosse = require('mongoose');
 
 const rota = express.Router();
 
