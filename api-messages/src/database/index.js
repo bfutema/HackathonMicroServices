@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect("mongodb://localhost/messagesDatabase", {
-  useMongoClient: true,
-  promiseLibrary: global.Promise
+  useUnifiedTopology: true
 });
 mongoose.Promise = global.Promise;
 

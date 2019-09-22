@@ -3,15 +3,15 @@ const Message = require("../models/message");
 
 const rota = express.Router();
 
-rota.post("/mensagem", (rq, rs) => {
+rota.post("/mensagem", async (rq, rs) => {
   rs.setHeader("Access-Control-Allow-Origin", "*");
-  Message.insert(rq.body);
-  rs.end(JSON.stringify({ ok: true, mensagem: "sem erros" }));
+  await Message.create(rq.body);
+  rs.json({ success: true, mensagem: "sem erros" });
 });
 
-rota.get("/mensagens", (rq, rs) => {
+rota.get("/mensagens", async (rq, rs) => {
   rs.setHeader("Access-Control-Allow-Origin", "*");
-  rs.end(JSON.stringify(Message.find({})));
+  rs.json(await Message.where({}));
 });
 
 module.exports = rota;

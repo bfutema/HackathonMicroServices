@@ -3,6 +3,7 @@ const routeMessage = require("./routes/message.js");
 
 const app = express();
 
+app.use(express.json());
 app.use(routeMessage);
 
 app.use(function(req, res, next) {
