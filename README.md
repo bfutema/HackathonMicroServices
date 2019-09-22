@@ -40,7 +40,25 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
     <li>Enviar mensagens e abrir chamados para tirar dúvidas com os mentores.</li>
 </ul>
 
-## APIS
+## Regras
+
+<h4>Criação das equipes</h4>
+
+<p>Após ter feito login no sistema, o participante poderá se inscrever em um Hackathon aberto pela equipe organizadora do evento.</p>
+<p>No momento em que é feita a inscrição no Hackathon o participante deverá informar se ele já tem uma equipe montada ou se está entrando sozinho.</p>
+<p>Caso o participante já tenha uma equipe, o mesmo será redirecionado para a tela de conversas já com o seu time montado com seus integrantes.</p>
+<p>Caso o participante não tenha uma equipe, o mesmo entrará automaticamente em um grupo central com todos os integrantes do Hackathon.</p>
+
+<h4>Submissão de projetos e Avaliação<h4>
+
+<p>Todos os chats ficarão bloqueados paras os perfis de Mentores e Participantes após a submissão dos projetos que posteriormente serão analisados pelos Jurados.</p>
+<p>Após a avaliação feita pelos jurados, será enviado via chat para todos os times participantes um resultado final de como foi aceita a solução desenvolvida pela equipe.</p>
+
+<h5>ATENÇÃO</h5>
+
+<p>Os print relatados na parte de <a href="#Front-End">telas</a> são apenas um protótipo da ideia apresentada.</p>
+
+## Estrutura da solução
 
 <ul>
   <li><a href="#APIAutenticacao">API de Autenticacão.</a></li>
