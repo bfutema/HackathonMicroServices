@@ -13,6 +13,8 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 <p>Nossa solução foi pensada e analisada em cima dessas dificuldades, e teve como o objetivo elaborar a criação de um chat online com funcionalidades integradas a ele. Sendo elas 5 funcionalidades:</p>
 
+## Funcionalidades
+
 <ul>
     <li>Criação das equipes. (Participantes)</li>
     <li>Abertura de conversas com os mentores. (Participantes, Mentores)</li>
@@ -20,6 +22,8 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
     <li>Divulgar as avaliações dos projetos. (Jurados)</li>
     <li>Submeter os projetos. (Participantes)</li>
 </ul>
+
+## Perfis de Usuários
 
 <h4>Perfil de Coordenador</h4>
 <ul>
