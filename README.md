@@ -28,12 +28,21 @@ npm install
 
 running the projects:
 
-       node ./api-authenticate/src/app
+Command Prompt 1:
+```
+node ./api-authenticate/src/app
+```
 
-       node ./api-authenticate/src/index
+Command Prompt 2:
+```
+node ./api-authenticate/src/index
+```
 
-       cd client-side/
-       npm start
+Command Prompt 3:
+```
+cd client-side/
+npm start
+```
 
 ## Tema: Melhorar experiência de todos os envolvidos em um hackathon
 
