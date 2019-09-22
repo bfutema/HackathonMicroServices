@@ -49,7 +49,7 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 <p>Caso o participante já tenha uma equipe, o mesmo será redirecionado para a tela de conversas já com o seu time montado com seus integrantes.</p>
 <p>Caso o participante não tenha uma equipe, o mesmo entrará automaticamente em um grupo central com todos os integrantes do Hackathon.</p>
 
-<h4>Submissão de projetos e Avaliação<h4>
+<h4>Submissão de projetos e Avaliação</h4>
 
 <p>Todos os chats ficarão bloqueados paras os perfis de Mentores e Participantes após a submissão dos projetos que posteriormente serão analisados pelos Jurados.</p>
 <p>Após a avaliação feita pelos jurados, será enviado via chat para todos os times participantes um resultado final de como foi aceita a solução desenvolvida pela equipe.</p>
