@@ -13,6 +13,14 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 <p>Nossa solução foi pensada e analisada em cima dessas dificuldades, e teve como o objetivo elaborar a criação de um chat online com funcionalidades integradas a ele. Sendo elas 5 funcionalidades:</p>
 
+<ul>
+    <li>Criação das equipes. (Participantes)</li>
+    <li>Abertura de conversas com os mentores. (Participantes, Mentores)</li>
+    <li>Configurar as regras e critérios do Hackathon. (Coordenadores, Jurados)</li>
+    <li>Divulgar as avaliações dos projetos. (Jurados)</li>
+    <li>Submeter os projetos. (Participantes)</li>
+</ul>
+
 <h4>Perfil de Coordenador</h4>
 <ul>
     <li>Poder gerenciar regras e critérios que serão utilizados no Hackathon.</li>
@@ -48,6 +56,10 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 <p>No momento em que é feita a inscrição no Hackathon o participante deverá informar se ele já tem uma equipe montada ou se está entrando sozinho.</p>
 <p>Caso o participante já tenha uma equipe, o mesmo será redirecionado para a tela de conversas já com o seu time montado com seus integrantes.</p>
 <p>Caso o participante não tenha uma equipe, o mesmo entrará automaticamente em um grupo central com todos os integrantes do Hackathon.</p>
+
+<h4>Abertura de Conversa com o Mentor</h4>
+
+<p>As conversas abertas com os mentores deverão ter um limite de tempo que o chat ficará disponível para as equipes tirarem as suas dúvidas.</p>
 
 <h4>Submissão de projetos e Avaliação</h4>
 
