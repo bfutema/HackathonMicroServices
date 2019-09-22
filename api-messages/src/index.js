@@ -1,7 +1,11 @@
 const express = require("express");
 const routeMessage = require("./routes/message.js");
+const bodyParser = require('body-parser');
 
 const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(routeMessage);
 
