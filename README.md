@@ -6,9 +6,39 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 ## Tema: Melhorar experiência de todos os envolvidos em um hackathon
 
-<p></p>
+<h3>Dificuldades</h3>
+<p>Atualmente a comunicação é feita via Discord e não em uma ferramenta centralizada, abrindo diversos canais de vozes diferenciados por temas como Ajuda, Desafio, Bate-Papo, etc. Porém o Discord também é muito utilizado por gamers de diversas comunidades de jogos, tendo em vista que atualmente a comunidade de jogos é muito ampla isso dificulta que o Discord seja uma boa ferramenta para comunicação de algum projeto competitivo, também dificultando a construção das equipes, tendo diversos canais em aberto para solucionar vários assuntos com muitas pessoas envolvidas, também como o Discord não tem o propósito específico para a organização de um evento como o Hackathon por vezes o usuário se encontra com problemas como: não achar as informações importantes sobre os temas, construções de equipes, como é feita a entrega, etc. </p>
 
-## Solução: Simplificar a comunicação via chat online
+## Solução: Simplificar a comunicação via chat integrado
+
+<p>Nossa solução foi pensada e analisada em cima dessas dificuldades, e teve como o objetivo elaborar a criação de um chat online com funcionalidades integradas a ele. Sendo elas 5 funcionalidades:</p>
+
+<h4>Perfil de Coordenador</h4>
+<ul>
+    <li>Poder gerenciar regras e critérios que serão utilizados no Hackathon.</li>
+    <li>Poderá manter conversas com os mentores e jurados envolvidos.</li>
+    <li>Gerenciar os critérios de como será realizada a entrega dos projetos.</li>
+</ul>
+
+<h4>Perfil de Jurados</h4>
+<ul>
+    <li>Poder analisar os projetos entregues.</li>
+    <li>Enviar uma avaliação para as equipes envolvidas.</li>
+    <li>Escolher o(s) vencedor(s).</li>
+</ul>
+
+<h4>Perfil de Mentores</h4>
+<ul>
+    <li>Poderá manter as conversas com diversos times, orientando e tirando as dúvidas dos participantes.</li>
+    <li>Enviar feedbacks/mensagens para os Coordenadores.</li>
+</ul>
+
+<h4>Perfil de Participante</h4>
+<ul>
+    <li>Poderá criar e gerenciar suas equipes.</li>
+    <li>Poderá manter conversas com os mentores e coordenadores envolvidos.</li>
+    <li>Enviar mensagens e abrir chamados para tirar dúvidas com os mentores.</li>
+</ul>
 
 <ul>
   <li><a href="#APIAutenticacao">API de Autenticacão.</a></li>
