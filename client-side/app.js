@@ -12,12 +12,10 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 app.use(require('express-session')({
- 
   name: 'web.Hacka', // The name of the cookie
-  secret: '1234', // The secret is required, and is used for signing cookies
+  secret: '2ed8d1f7622a575b2cf4a92c1e548d2a', // The secret is required, and is used for signing cookies
   resave: false, // Force save of session for each request.
   saveUninitialized: false // Save a session that is new, but has not been modified
-
 }));
 
 // view engine setup
