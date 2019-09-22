@@ -24,6 +24,8 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 <p>Usamos o banco de dados do mongodb devido seu funcionamento se basear de chave e valor, para armazenar dados dos usuários e das mensagens enviadas pelo aplicativo.</p>
 
+<hr>
+
 ## Detalhes das APIS
 
 <h2 id="APIAutenticacao"></h2>
@@ -32,20 +34,20 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 <p>A API de autenticação é constutuída de uma web.api feita em [Node.js](https://nodejs.org/en/), [Json Web Token]() e [Express]() que tem o intuito de possibilitar a criação de usuários e autenticação dos mesmo tendo em vista um melhor desempenho geral do sistema.</p>
 
-<hr>
-
 <h2 id="APIEnvioMensagens"></h2>
 
 <h3>API de Envio de Mensagens</h3>
 
 <p>Criada para separar a responsabilidades dos envio de mensagens.</p>
 
+<hr>
+
 ## Telas
 
 <h2 id="Front-End"></h2>
 
-<h3>Web.Hacka</h3>
-
 <p>O </p>
 
-<p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Admin.jpg" alt="Web.Hacka" /></p>
+<p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Login.jpg" alt="Tela de Login" /></p>
+
+<p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Admin.jpg" alt="Tela Principal do Sistema" /></p>
