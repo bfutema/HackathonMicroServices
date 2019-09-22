@@ -8,15 +8,26 @@ intalling and serving MongoBD in your pc:
  
 installing dependencies:
 
-       yarn ./api-authenticate
-       yarn ./api-messages
-       npm ./client-side
+        ```
+        cd api-authenticate/
+        yarn install
+        
+        ```
+
+        cd api-messages/
+        yarn install
+
+        cd client-side/
+        npm install
 
 running the projects:
 
        node ./api-authenticate/src/app
+
        node ./api-authenticate/src/index
-       npm ./start client-side/app
+
+       cd client-side/
+       npm start
 
 ## Tema: Melhorar experiência de todos os envolvidos em um hackathon
 

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "api-authenticate": "./api-authenticate/"
+  }
+}
