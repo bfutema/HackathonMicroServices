@@ -8,17 +8,16 @@ intalling and serving MongoBD in your pc:
  
 installing dependencies:
 
-        ```sh
-        cd api-authenticate/
-        yarn install
+```
+cd api-authenticate/
+yarn install
+```
 
-        ```
+cd api-messages/
+yarn install
 
-        cd api-messages/
-        yarn install
-
-        cd client-side/
-        npm install
+cd client-side/
+npm install
 
 running the projects:
 
