@@ -26,17 +26,11 @@ This project is open source in this [repository](https://github.com/BrunoFutema/
 
 <hr>
 
-## Detalhes das APIS
-
-<h2 id="APIAutenticacao"></h2>
-
-<h3>API de Autenticação</h3>
+<h2 id="APIAutenticacao">API de Autenticação</h2>
 
 <p>A API de autenticação é constutuída de uma web.api feita em [Node.js](https://nodejs.org/en/), [Json Web Token]() e [Express]() que tem o intuito de possibilitar a criação de usuários e autenticação dos mesmo tendo em vista um melhor desempenho geral do sistema.</p>
 
-<h2 id="APIEnvioMensagens"></h2>
-
-<h3>API de Envio de Mensagens</h3>
+<h2 id="APIEnvioMensagens">API de Envio de Mensagens</h2>
 
 <p>Criada para separar a responsabilidades dos envio de mensagens.</p>
 
