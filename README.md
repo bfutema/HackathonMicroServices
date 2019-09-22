@@ -6,7 +6,7 @@ intalling and serving MongoBD in your pc:
        mongo instalation ....
        mongo running ...
  
-installing dependencies:
+## Installing dependencies:
 
 Command Prompt 1:
 ```
@@ -26,7 +26,7 @@ cd client-side/
 npm install
 ```
 
-running the projects:
+## Running the projects:
 
 Command Prompt 1:
 ```
