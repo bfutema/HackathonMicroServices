@@ -4,28 +4,45 @@
             <li style="color: #ffffff; font-size: 20px; font-weight: bold;" class="nav-header">
                 Conversas
             </li>
-            <li class="">
+            <% if (ativo == 'jurados') { %>
+                <li class="active">
+            <% } else { %>
+                <li class="">
+            <% } %>
                 <a href="/jurados">
                     <img style="margin-right: 10px; padding: 5px; background-color: #e8e8e8; background-size: cover; width: 40px; height: 40px;" alt="image" class="rounded-circle" src="images/legal-hammer.svg">
                     <span class="nav-label">Jurados</span>
                     <span id="msgJurados" style="border-radius: 20px; margin-top: 11px;" class="label float-right">2</span>
                 </a>
             </li>
-            <li class="">
+
+            <% if (ativo == 'coordenadores') { %>
+                <li class="active">
+            <% } else { %>
+                <li class="">
+            <% } %>
                 <a href="/coordenadores">
                     <img style="margin-right: 10px; padding: 5px; background-color: #e8e8e8; background-size: cover; width: 40px; height: 40px;" alt="image" class="rounded-circle" src="images/coordinating-people.svg">
                     <span class="nav-label">Coordenadores</span>
                     <span id="msgCoordenadores" style="display: none; border-radius: 20px; margin-top: 11px;" class="label float-right">2</span>
                 </a>
             </li>
-            <li class="">
+            <% if (ativo == 'mentores') { %>
+                <li class="active">
+            <% } else { %>
+                <li class="">
+            <% } %>
                 <a href="/mentores">
                     <img style="margin-right: 10px; padding: 5px; background-color: #e8e8e8; background-size: cover; width: 40px; height: 40px;" alt="image" class="rounded-circle" src="images/classroom.svg">
                     <span class="nav-label">Mentores</span>
                     <span id="msgMentores" style="display: none; border-radius: 20px; margin-top: 11px;" class="label float-right">2</span>
                 </a>
             </li>
-            <li class="active">
+            <% if (ativo == 'time') { %>
+                <li class="active">
+            <% } else { %>
+                <li class="">
+            <% } %>
                 <a href="/time">
                     <img style="margin-right: 10px; padding: 5px; background-color: #e8e8e8; background-size: cover; width: 40px; height: 40px;" alt="image" class="rounded-circle" src="images/group.svg">
                     <span class="nav-label">Time 7</span>

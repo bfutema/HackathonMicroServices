@@ -4,13 +4,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-<<<<<<< HEAD
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-
-=======
 app.use(express.json());
->>>>>>> d873017b31edb2bca8fd75b28ab61d76de5ab6c2
 app.use(routeMessage);
 
 app.use(function(req, res, next) {

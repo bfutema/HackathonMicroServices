@@ -39,6 +39,9 @@ router.post('/authenticate', async (req, res) => {
     console.log('passei');
     const { email, password } = req.body;
 
+    console.log(req.body.email);
+    console.log(req.body.password);
+
     const user = await User.findOne({ email }).select('+password');
 
     if (!user)

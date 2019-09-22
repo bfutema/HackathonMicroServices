@@ -11,6 +11,15 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+app.use(require('express-session')({
+ 
+  name: 'web.Hacka', // The name of the cookie
+  secret: '1234', // The secret is required, and is used for signing cookies
+  resave: false, // Force save of session for each request.
+  saveUninitialized: false // Save a session that is new, but has not been modified
+
+}));
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -28,6 +37,7 @@ app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
+  res.redirect('/login');
   next(createError(404));
 });
 

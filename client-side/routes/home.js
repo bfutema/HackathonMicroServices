@@ -1,29 +1,31 @@
 var express = require('express');
 var router = express.Router();
+var middlwareAuth = require('../middleware/auth');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  var isAuthenticate = true;
-
-  if (!isAuthenticate) res.redirect('login');
-
-  res.render('pages/home', { title: 'Express' });
+router.get('/', middlwareAuth, function(req, res, next) {
+  var User = req.session.User;
+  res.render('pages/home', { title: 'Express', ativo: 'time', usuario: User });
 });
 
-router.get('/jurados', function (req, res, next) {
-  res.render('pages/jurados', { ativo: 'active' });
+router.get('/jurados', middlwareAuth, function (req, res, next) {
+  var User = req.session.User;
+  res.render('pages/jurados', { ativo: 'jurados', usuario: User });
 });
 
-router.get('/coordenadores', function (req, res, next) {
-  res.render('pages/coordenadores', { ativo: 'active' });
+router.get('/coordenadores', middlwareAuth, function (req, res, next) {
+  var User = req.session.User;
+  res.render('pages/coordenadores', { ativo: 'coordenadores', usuario: User });
 });
 
-router.get('/mentores', function (req, res, next) {
-  res.render('pages/mentores', { ativo: 'active' });
+router.get('/mentores', middlwareAuth, function (req, res, next) {
+  var User = req.session.User;
+  res.render('pages/mentores', { ativo: 'mentores', usuario: User });
 });
 
-router.get('/time', function (req, res, next) {
-  res.render('pages/time', { ativo: 'active' });
+router.get('/time', middlwareAuth, function (req, res, next) {
+  var User = req.session.User;
+  res.render('pages/time', { ativo: 'time', usuario: User });
 });
 
 module.exports = router;

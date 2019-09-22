@@ -8,24 +8,32 @@ router.get('/', function (req, res) {
     res.render('pages/login', { title: 'Login' });
 });
 
-router.post('/login/auth', function (req, res) {
-
+router.post('/auth', function (req, res) {
     var resposta = 'Bearer ';
 
-    var tok = request.post('http://localhost:9000/auth/authenticate', { form: req.body }, function (error, response, body) {
-        var jsonRetorno = JSON.parse(body);
-        return jsonRetorno.token;
+    var options = {
+        url: 'http://localhost:9000/auth/authenticate',
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        json: req.body
+    };
+
+    request(options, function (error, response, body) {
+        req.session.token = body.token;
+        req.session.User = body.user;
+        if (body.token != null) {
+            res.redirect('/');
+        } else  {
+            res.redirect('login');
+        }
     });
+});
 
-    console.log(tok);
-
-    if (resposta != null) {
-        //var token = resposta;
-        //res.setHeader('Authorization', '');
-        //res.redirect('../');
-    } else  {
-        res.redirect('login');
-    }
+router.post('/logout', (req, res) => {
+    req.session.token = null;
+    res.redirect('/login');
 });
 
 module.exports = router;
