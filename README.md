@@ -2,7 +2,21 @@
 
 ## Download and Instalation
 
-This project is open source in this [repository](https://github.com/BrunoFutema/HackathonMicroServices).
+intalling and serving MongoBD in your pc:
+       mongo instalation ....
+       mongo running ...
+ 
+installing dependencies:
+
+       yarn ./api-authenticate
+       yarn ./api-messages
+       npm ./client-side
+
+running the projects:
+
+       node ./api-authenticate/src/app
+       node ./api-authenticate/src/index
+       npm ./start client-side/app
 
 ## Tema: Melhorar experiência de todos os envolvidos em um hackathon
 
