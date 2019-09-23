@@ -46,112 +46,114 @@ cd client-side/
 npm start
 ```
 
-## Tema: Melhorar experiência de todos os envolvidos em um hackathon
+## Theme: Improve the experience of everyone involved in a hackathon
 
-<h3>Dificuldades</h3>
-<p>Atualmente a comunicação é feita via Discord e não em uma ferramenta centralizada, abrindo diversos canais de vozes diferenciados por temas como Ajuda, Desafio, Bate-Papo, etc. Porém o Discord também é muito utilizado por gamers de diversas comunidades de jogos, tendo em vista que atualmente a comunidade de jogos é muito ampla isso dificulta que o Discord seja uma boa ferramenta para comunicação de algum projeto competitivo, também dificultando a construção das equipes, tendo diversos canais em aberto para solucionar vários assuntos com muitas pessoas envolvidas, também como o Discord não tem o propósito específico para a organização de um evento como o Hackathon por vezes o usuário se encontra com problemas como: não achar as informações importantes sobre os temas, construções de equipes, como é feita a entrega, etc. </p>
+<h3>Difficulties</h3>
+<p>Currently the communication is done via Discord and not in a centralized tool, opening several voice channels differentiated by themes such as Help, Challenge, Chat, etc. However, Discord is also widely used by gamers from various gaming communities, given that the gaming community is currently very large, making it difficult for Discord to be a good tool for communicating a competitive project, making it difficult to build teams, Having several channels open to solve various issues with many people involved, also as Discord does not have the specific purpose for organizing an event like a Hackathon, because sometimes the user encounters problems such as: not finding the important information on the topics, team building, how delivery is done, etc. </p>
 
-## Solução: Simplificar a comunicação via chat integrado
+## Solution: Simplify integrated chat communication
 
-<p>Nossa solução foi pensada e analisada em cima dessas dificuldades, e teve como o objetivo elaborar a criação de um chat online com funcionalidades integradas a ele. Sendo elas 5 funcionalidades:</p>
+<p>Our solution was designed and analyzed on the basis of these difficulties, and aimed to elaborate the creation of an online chat with features integrated to it. These are 5 features:</p>
 
 ## Funcionalidades
 
 <ul>
-    <li>Criação das equipes. (Participantes)</li>
-    <li>Abertura de conversas com os mentores. (Participantes, Mentores)</li>
-    <li>Configurar as regras e critérios do Hackathon. (Coordenadores, Jurados)</li>
-    <li>Divulgar as avaliações dos projetos. (Jurados)</li>
-    <li>Submeter os projetos. (Participantes)</li>
+    <li>Creation of teams. (Participants)</li>
+    <li>Opening conversations with mentors. (Participants, Mentors)</li>
+    <li>Configure Hackathon rules and criteria. (Coordinators, Jurors)</li>
+    <li>Disseminate project evaluations. (Jurors)</li>
+    <li>Submit the projects. (Participants)</li>
 </ul>
 
-## Perfis de Usuários
+## User Profile
 
-<h4>Perfil de Coordenador</h4>
+<h4>Coordinator Profile</h4>
 <ul>
-    <li>Poder gerenciar regras e critérios que serão utilizados no Hackathon.</li>
-    <li>Poderá manter conversas com os mentores e jurados envolvidos.</li>
-    <li>Gerenciar os critérios de como será realizada a entrega dos projetos.</li>
+    <li>Be able to manage rules and criteria that will be used in Hackathon.</li>
+    <li>keep conversations with mentors and jurors involved.</li>
+    <li>Manage the criteria for how projects will be delivered.</li>
 </ul>
 
-<h4>Perfil de Jurados</h4>
+<h4>Jurors Profile</h4>
 <ul>
-    <li>Poder analisar os projetos entregues.</li>
-    <li>Enviar uma avaliação para as equipes envolvidas.</li>
-    <li>Escolher o(s) vencedor(s).</li>
+    <li>To be able to analyze the delivered projects.</li>
+    <li>Submit an assessment to the teams involved.</li>
+    <li>Choose the winners.</li>
 </ul>
 
-<h4>Perfil de Mentores</h4>
+<h4>Mentors's Profile</h4>
 <ul>
-    <li>Poderá manter as conversas com diversos times, orientando e tirando as dúvidas dos participantes.</li>
-    <li>Enviar feedbacks/mensagens para os Coordenadores.</li>
+    <li>Keep conversations with various teams, guiding and answering questions from participants.</li>
+    <li>Send feedback / messages to the Coordinators.</li>
 </ul>
 
-<h4>Perfil de Participante</h4>
+<h4>Participant Profile</h4>
 <ul>
-    <li>Poderá criar e gerenciar suas equipes.</li>
-    <li>Poderá manter conversas com os mentores e coordenadores envolvidos.</li>
-    <li>Enviar mensagens e abrir chamados para tirar dúvidas com os mentores.</li>
+    <li>create and manage your teams.</li>
+    <li>Keep conversations with the mentors and coordinators involved.</li>
+    <li>Send messages and open calls to ask questions from mentors.</li>
 </ul>
 
-## Regras
+## Rules
 
-<h4>Criação das equipes</h4>
+<h4>Team Criation</h4>
 
-<p>Após ter feito login no sistema, o participante poderá se inscrever em um Hackathon aberto pela equipe organizadora do evento.</p>
-<p>No momento em que é feita a inscrição no Hackathon o participante deverá informar se ele já tem uma equipe montada ou se está entrando sozinho.</p>
-<p>Caso o participante já tenha uma equipe, o mesmo será redirecionado para a tela de conversas já com o seu time montado com seus integrantes.</p>
-<p>Caso o participante não tenha uma equipe, o mesmo entrará automaticamente em um grupo central com todos os integrantes do Hackathon.</p>
 
-<h4>Abertura de Conversa com o Mentor</h4>
+<p>After login, participants can register for a Hackathon opened by the event organizing team.</p>
+<p>At the time of enrolling in Hackathon, the participant must inform if they already have a team together or are joining alone.</p>
+<p>If the participant already has a team, they will be redirected to the conversation screen already with their team meeting with their members.</p>
+<p>If the participant does not have a team, they will automatically join a core group with all Hackathon members.</p>
 
-<p>As conversas abertas com os mentores deverão ter um limite de tempo que o chat ficará disponível para as equipes tirarem as suas dúvidas.</p>
+<h4>Opening a conversation with Mentor</h4>
 
-<h4>Submissão de projetos e Avaliação</h4>
+<p>Open conversations with mentors should have a time frame for chat to be available for teams to answer their questions.</p>
 
-<p>Todos os chats ficarão bloqueados paras os perfis de Mentores e Participantes após a submissão dos projetos que posteriormente serão analisados pelos Jurados.</p>
-<p>Após a avaliação feita pelos jurados, será enviado via chat para todos os times participantes um resultado final de como foi aceita a solução desenvolvida pela equipe.</p>
+<h4>Project Submission and Evaluation</h4>
 
-<h5>ATENÇÃO</h5>
+<p>All conversations will be blocked to Mentor and Participant profiles upon submission of the projects, which will be further reviewed by the Jury.</p>
+<p>After judging the judges, a final result will be sent via chat to all participating teams about how the solution developed by the team was accepted.</p>
 
-<p>Os print relatados na parte de <a href="#Front-End">telas</a> são apenas um protótipo da ideia apresentada.</p>
+<h5>ATTENTION</h5>
 
-## Estrutura da solução
+<p>The impressions reported on the <a href="#Front-End">Views</a>  are just a prototype of the idea presented.</p>
+
+## Solution Structure
 
 <ul>
-  <li><a href="#APIAutenticacao">API de Autenticacão.</a></li>
-  <li><a href="#APIEnvioMensagens">API de Mensageria.</a></li>
-  <li><a href="#Front-End">Telas</a></li>
+  <li><a href="#APIAutenticacao">Autenthicate API.</a></li>
+  <li><a href="#APIEnvioMensagens">Messages API</a></li>
+  <li><a href="#Front-End">Views</a></li>
 </ul>
 
-## Arquitetura
+## Architech
 
-<p>Criamos o projeto utilizando arquitetura em micro serviços, separando as responsabilidades entre autenticação, envio de mensagens e o front-end.</p>
+<p>We created the project using micro-services architecture, separating the responsibilities between authentication, messages and the front end.</p>
 
-## Banco de Dados
+## Database
 
-<p>Usamos o banco de dados do mongodb devido seu funcionamento se basear de chave e valor, para armazenar dados dos usuários e das mensagens enviadas pelo aplicativo.</p>
+<p>We use mongodb database because your operation is based on key and value to store user data and messages sent by the application.
+</p>
 
 <hr>
 
-<h2 id="APIAutenticacao">API de Autenticação</h2>
+<h2 id="APIAutenticacao">Autenthicate API</h2>
 
-<p>A API de autenticação é constutuída de uma web.api feita em [Node.js](https://nodejs.org/en/), [Json Web Token]() e [Express]() que tem o intuito de possibilitar a criação de usuários e autenticação dos mesmo tendo em vista um melhor desempenho geral do sistema.</p>
+<p>An authentication API is created for a web.api made in [Node.js](https://nodejs.org/en/), [Json Web Token](https://jwt.io/) and [Express](https://expressjs.com/pt-br/) which is intended to enable user creation and authentication for better overall system performance.</p>
 
-<h2 id="APIEnvioMensagens">API de Envio de Mensagens</h2>
+<h2 id="APIEnvioMensagens">Messages API</h2>
 
-<p>Criada para separar a responsabilidades dos envio de mensagens.</p>
+<p>Built to separate responsibilities from messages.</p>
 
 <hr>
 
-<h2 id="Front-End">Telas</h2>
+<h2 id="Front-End">Views</h2>
 
-<h4>Tela de Login</h4>
-<p>O usuário irá se logar ou criar sua conta no sistema.</p>
+<h4>Login Screen</h4>
+<p>The user will login or create their system account.</p>
 
 <p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Login.jpg" alt="Tela de Login" /></p>
 
-<h4>Tela Principal</h4>
-<p>Uma vez logado no sistema, o usuário será redirecionado para a tela principal onde irá mostrar as conversas com os Jurados, Mentores, Coordenadores e de sua própria equipe.</p>
+<h4>Principal view</h4>
+<p>The first time the user logs in, the user will be redirected to the main screen where they will show conversations with the Jury, Mentors, Coordinators and their own team.</p>
 
 <p><img src="https://github.com/BrunoFutema/HackathonMicroServices/blob/master/client-side/public/images/Site/Web.Hacka_Admin.jpg" alt="Tela Principal do Sistema" /></p>
